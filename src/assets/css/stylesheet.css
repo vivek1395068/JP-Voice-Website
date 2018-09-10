@@ -1,0 +1,191 @@
+/* .App div div{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 44%
+} */
+/* HKheader */
+#HKheader{
+    height: 64px;
+    width: 100%;
+    background-color: steelblue;
+}
+
+#HKheader div{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 35%
+}
+
+/* HKleftTab */
+#HKleftTab{
+    position: absolute;
+    left: 0px;
+    width: 12%;
+    height: 676px;
+    background-color: rgb(243, 242, 242)
+}
+
+#HKTab1{
+    height: 64px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: white;
+    margin-top: 54%;
+
+}
+
+/* HKlefttopdiv */
+#HKlefttopdiv{
+    left: 11%;
+    width: 24%;
+    height: 434px;
+    background-color: white;
+    position: absolute;
+    margin: 2% 0 0 2%;
+    border-radius: 4px;
+}
+
+/* HKleftbottomdiv */
+#HKleftbottomdiv{
+    left: 11%;
+    top: 530px;
+    width: 24%;
+    height: 174px;
+    background-color: white;
+    position: absolute;
+    margin: 1% 0 0 2%;
+    border-radius: 4px
+}
+
+/* HKmiddletopdiv */
+#HKmiddletopdiv{
+    left: 36%;
+    width: 24%;
+    height: 176px;
+    background-color: white;
+    position: absolute;
+    margin: 2% 0 0 2%;
+    border-radius: 4px;
+    /* background-image: url(../img/_Krishna.jpg) */
+}
+
+#HKmiddletopdiv img {
+    overflow: hidden;
+    border-radius: 4px;
+    height: 176px;
+}
+
+#HKmiddletopdivleftp {
+    position: absolute;
+    left: 0px;
+    top: 49%;
+    margin: 0 0 0 2px ;
+    cursor: pointer;
+    height: 18px;
+    width: 18px
+}
+
+#HKmiddletopdivrightp{
+    position: absolute;
+    right: 0px;
+    top: 49%;
+    margin: 0 2px 0 0;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+}
+
+/* HKmiddlecentrediv */
+#HKmiddlecentrediv{
+    left: 36%;
+    top: 278px;
+    width: 24%;
+    height: 178px;
+    background-color: white;
+    position: absolute;
+    margin: 1% 0 0 2%;
+    border-radius: 4px
+}
+
+/* HKmiddlebottomdiv */
+#HKmiddlebottomdiv{
+    left: 36%;
+    top: 484px;
+    width: 24%;
+    height: 192px;
+    background-color: white;
+    position: absolute;
+    margin: 1% 0 0 2%;
+    border-radius: 4px
+}
+
+/* HKrighttopdiv */
+#HKrighttopdiv{
+    left:61%;
+    width: 24%;
+    height: 191px;
+    background-color: white;
+    position: absolute;
+    margin: 2% 0 0 2%;
+    border-radius: 4px
+}
+
+/* HKrightbottomdiv */
+#HKrightbottomdiv{
+    left: 61%;
+    top: 282px;
+    width: 24%;
+    height: 408px;
+    background-color: white;
+    position: absolute;
+    margin: 2% 0 0 2%;
+    border-radius: 4px   
+}
+
+/* HKinfoboxtop */
+#HKinfoboxtop{
+    left: 86%;
+    width: 11%;
+    height: 88px;
+    background-color: white;
+    position: absolute;
+    margin: 2% 0 0 2%;
+    border-radius: 4px
+}
+
+/* HKinfoboxmiddle */
+#HKinfoboxmiddle{
+    left: 86%;
+    width: 11%;
+    top: 175px;
+    height: 88px;
+    background-color: white;
+    position: absolute;
+    margin: 2% 0 0 2%;
+    border-radius: 4px
+}
+
+/* HKinfoboxbottom */
+#HKinfoboxbottom{
+    left: 86%;
+    width: 11%;
+    top: 286px;
+    height: 88px;
+    background-color: white;
+    position: absolute;
+    margin: 2% 0 0 2%;
+    border-radius: 4px
+}
+
+/* HKfooter */
+#HKfooter{
+    height: 64px;
+    margin-top: 676px;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    background-color: white;
+}
