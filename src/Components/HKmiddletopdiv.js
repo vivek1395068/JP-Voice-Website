@@ -51,7 +51,7 @@ export default class HKmiddletopdiv extends React.Component {
     }
     componentWillMount(){
         var funcScope=this;
-        var req = require.context("../assets/img", false, /.*\.jpg$/);
+        var req = require.context("../assets/img/HKdisplayimg", false, /.*\.jpg$/);
         req.keys().forEach(function(key){
             funcScope.state.LordImages.push(req(key))
         });
@@ -62,12 +62,10 @@ export default class HKmiddletopdiv extends React.Component {
     }
     render(){
         return (
-            <div id="HKmiddletopdiv">
-                <div>{/* HK5 !!!! */}
+            <div id="HKmiddletopdiv">{/* HK5 !!!! */}
                 <p id="HKmiddletopdivleftp" onClick={this.HKmiddletopdivleftpOnClick.bind(this)}>{"<"}{/* HK !!!! */}</p>
                     <img alt="" id="displayImg" src={this.state.LordImages[this.HKimageno]}></img>
                     <p id="HKmiddletopdivrightp" onClick={this.HKmiddletopdivrightpOnClick.bind(this)}>{/* HK !!! */}></p>
-                </div>
             </div>
         )
     }
