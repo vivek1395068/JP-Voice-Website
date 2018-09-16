@@ -1,9 +1,10 @@
-/* .App div div{
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    top: 44%
-} */
+/* HKlandingpage */
+.HKlandingpage{
+    margin: 0px;
+    padding: 0px;
+    height: 740px;
+    background-color: #dddddd;
+}
 /* HKheader */
 #HKheader{
     height: 64px;
@@ -16,6 +17,20 @@
     vertical-align: middle;
     position: relative;
     top: 35%
+}
+
+#HKheadersettingsicon{
+    float: right;
+    margin-right: 1%;
+    cursor: pointer;
+    color: white
+}
+
+#HKheaderusericon{
+    float: right;
+    margin-right: 2%;
+    cursor: pointer;
+    color: white
 }
 
 /* HKleftTab */
@@ -37,10 +52,11 @@
 
 }
 
-#HKleftTabhomeimg{
-    height: 64%;
-    width: 32%;
-    margin: 4% 0 0 8%;
+#HKleftTabhomeicon{
+    color: steelblue;
+    margin-top: 8%;
+    font-size: 32px;
+    margin-left: 18%;
 }
 
 /* HKlefttopdiv */

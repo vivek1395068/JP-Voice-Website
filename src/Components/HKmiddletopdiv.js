@@ -59,6 +59,7 @@ export default class HKmiddletopdiv extends React.Component {
 
     componentDidMount(){
         this.setIntervalFunc();
+        /* console.log(document.getElementById("HKmiddletopdiv").clientWidth) */
     }
     render(){
         return (
