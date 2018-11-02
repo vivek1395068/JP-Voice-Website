@@ -5,7 +5,7 @@ export default class HKinfoboxmiddle extends React.Component {
     render(){
         return (
             <div id="HKinfoboxmiddle">
-                <div>HK11 !!!!</div>
+                Upcoming Events
             </div>
         )
     }

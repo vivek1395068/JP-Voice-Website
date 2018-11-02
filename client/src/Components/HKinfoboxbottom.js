@@ -5,7 +5,7 @@ export default class HKinfoboxbottom extends React.Component {
     render(){
         return (
             <div id="HKinfoboxbottom">
-                <div>HK12 !!!!</div>
+                <a href="https://iskcondesiretree.com/page/vaishnava-calendar-2018">Vaishnava Calendar</a>
             </div>
         )
     }

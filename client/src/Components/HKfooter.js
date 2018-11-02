@@ -5,6 +5,7 @@ export default class HKfooter extends React.Component {
         return (
             <div id="HKfooter">
                 <div>HK13 !!!!</div>
+                {/* <button id="myBtn">Open Modal</button> */}
             </div>
         )
     }

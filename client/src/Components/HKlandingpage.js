@@ -11,6 +11,7 @@ import HKrightbottomdiv from "./HKrightbottomdiv";
 import HKinfoboxtop from "./HKinfoboxtop";
 import HKinfoboxmiddle from "./HKinfoboxmiddle";
 import HKinfoboxbottom from "./HKinfoboxbottom";
+import HKLoginPage from "./HKlogin";
 import '../assets/css/stylesheet.css';
 import HKfooter from './HKfooter';
 
@@ -31,6 +32,7 @@ class HKlandingpage extends Component {
         <HKinfoboxmiddle/>
         <HKinfoboxbottom/>
         <HKfooter/>
+        {<HKLoginPage/>}
       </div>
     );
   }

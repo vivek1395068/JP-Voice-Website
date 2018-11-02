@@ -6,7 +6,7 @@ export default class HKinfoboxtop extends React.Component {
         return (
             <div id="HKinfoboxtop">
                 <div>{/* HK10 !!!! */}
-                    <a href="https://iskcondesiretree.com/page/vaishnava-calendar-2018">Vaishnava Calendar</a>
+                    Quote Of The Day
                 </div>
             </div>
         )
