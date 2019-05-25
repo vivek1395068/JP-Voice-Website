@@ -8,6 +8,6 @@ app.get('*',(req,res)=>{
     res.sendFile(path.join(__dirname,'client/build/index.html'))
 });
 
-app.listen(8081,(req,res)=>{
+app.listen((process.env.PORT || 8081),(req,res)=>{
     console.log("running on port 8081....")
 })
